@@ -14,7 +14,7 @@ export default function NewsItem(props){
           src={
             imageUrl
               ? imageUrl
-              : "https://scitechdaily.com/images/Asian-Tiger-Mosquito-Aedes-albopictus.jpg"
+              : "https://upload.wikimedia.org/wikipedia/commons/1/14/No_Image_Available.jpg"
           }
           style={{ height: "200px" }}
           className="card-img-top"

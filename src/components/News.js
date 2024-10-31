@@ -32,6 +32,7 @@ export default function News(props) {
   useEffect(() => {
     setLoading(true);
     fetchNews(props.page); 
+    document.title = `News Monkey - ${capitalizeCategory(props.category)}`;
   },[]);
 
   const capitalizeCategory = (str) => {
